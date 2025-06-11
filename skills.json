@@ -1,0 +1,163 @@
+{
+    "categories": {
+        "programming_languages": [
+            {"name": "Python", "aliases": ["python3", "py"]},
+            {"name": "JavaScript", "aliases": ["js", "javascript", "ecmascript"]},
+            {"name": "TypeScript", "aliases": ["ts", "typescript"]},
+            {"name": "Java", "aliases": ["java"]},
+            {"name": "C++", "aliases": ["cpp", "c plus plus"]},
+            {"name": "C#", "aliases": ["csharp", "c sharp"]},
+            {"name": "Go", "aliases": ["golang"]},
+            {"name": "Rust", "aliases": ["rust-lang"]},
+            {"name": "PHP", "aliases": ["php"]},
+            {"name": "Ruby", "aliases": ["ruby"]},
+            {"name": "Swift", "aliases": ["swift"]},
+            {"name": "Kotlin", "aliases": ["kotlin"]}
+        ],
+        "web_frameworks": [
+            {"name": "React", "aliases": ["reactjs", "react.js"]},
+            {"name": "Vue.js", "aliases": ["vuejs", "vue"]},
+            {"name": "Angular", "aliases": ["angularjs", "angular.js"]},
+            {"name": "Node.js", "aliases": ["nodejs", "node"]},
+            {"name": "Express.js", "aliases": ["express", "expressjs"]},
+            {"name": "Django", "aliases": ["django"]},
+            {"name": "Flask", "aliases": ["flask"]},
+            {"name": "FastAPI", "aliases": ["fastapi"]},
+            {"name": "Spring Boot", "aliases": ["springboot", "spring"]},
+            {"name": "Laravel", "aliases": ["laravel"]},
+            {"name": "Ruby on Rails", "aliases": ["rails", "ror"]}
+        ],
+        "databases": [
+            {"name": "MySQL", "aliases": ["mysql"]},
+            {"name": "PostgreSQL", "aliases": ["postgres", "postgresql"]},
+            {"name": "MongoDB", "aliases": ["mongo", "mongodb"]},
+            {"name": "Redis", "aliases": ["redis"]},
+            {"name": "SQLite", "aliases": ["sqlite"]},
+            {"name": "Oracle", "aliases": ["oracle db"]},
+            {"name": "SQL Server", "aliases": ["mssql", "microsoft sql server"]},
+            {"name": "Cassandra", "aliases": ["apache cassandra"]},
+            {"name": "DynamoDB", "aliases": ["dynamodb"]}
+        ],
+        "cloud_platforms": [
+            {"name": "AWS", "aliases": ["amazon web services", "ec2", "s3", "lambda"]},
+            {"name": "Azure", "aliases": ["microsoft azure", "azure cloud"]},
+            {"name": "Google Cloud", "aliases": ["gcp", "google cloud platform"]},
+            {"name": "Docker", "aliases": ["containerization"]},
+            {"name": "Kubernetes", "aliases": ["k8s", "container orchestration"]},
+            {"name": "Terraform", "aliases": ["infrastructure as code"]},
+            {"name": "Jenkins", "aliases": ["ci/cd", "continuous integration"]}
+        ],
+        "tools_and_technologies": [
+            {"name": "Git", "aliases": ["version control", "github", "gitlab"]},
+            {"name": "Linux", "aliases": ["unix", "ubuntu", "centos"]},
+            {"name": "Nginx", "aliases": ["web server"]},
+            {"name": "Apache", "aliases": ["apache httpd"]},
+            {"name": "GraphQL", "aliases": ["graphql"]},
+            {"name": "REST API", "aliases": ["restful", "rest", "api"]},
+            {"name": "Microservices", "aliases": ["microservice architecture"]},
+            {"name": "System Design", "aliases": ["architecture design", "scalability"]}
+        ]
+    },
+    "aliases": {
+        "amazon web services": "AWS",
+        "ec2": "AWS",
+        "s3": "AWS",
+        "nodejs": "Node.js",
+        "reactjs": "React",
+        "vuejs": "Vue.js",
+        "angularjs": "Angular",
+        "javascript": "JavaScript",
+        "typescript": "TypeScript",
+        "python3": "Python",
+        "postgresql": "PostgreSQL",
+        "mysql": "MySQL",
+        "mongodb": "MongoDB",
+        "docker": "Docker",
+        "kubernetes": "Kubernetes",
+        "k8s": "Kubernetes"
+    }
+}
+
+# data/learning_paths.json
+{
+    "node.js": {
+        "steps": [
+            "Install Node.js and learn basic syntax",
+            "Understand asynchronous programming in JS",
+            "Build a REST API with Express.js",
+            "Handle authentication and routing"
+        ]
+    },
+    "docker": {
+        "steps": [
+            "Understand containers vs virtual machines",
+            "Install Docker CLI and Docker Desktop",
+            "Write a Dockerfile for a simple app",
+            "Build and run Docker containers locally"
+        ]
+    },
+    "mongodb": {
+        "steps": [
+            "Learn NoSQL database concepts",
+            "Install MongoDB and understand document structure",
+            "Practice CRUD operations with MongoDB",
+            "Integrate MongoDB with your backend application"
+        ]
+    },
+    "aws": {
+        "steps": [
+            "Create AWS account and understand core services",
+            "Learn EC2 for compute and S3 for storage",
+            "Deploy a simple application on AWS",
+            "Understand IAM roles and security best practices"
+        ]
+    },
+    "system design": {
+        "steps": [
+            "Learn system design fundamentals and scalability",
+            "Understand load balancing and caching strategies",
+            "Study database design and partitioning",
+            "Practice designing distributed systems"
+        ]
+    },
+    "react": {
+        "steps": [
+            "Learn React fundamentals and JSX syntax",
+            "Understand components, props, and state",
+            "Master React hooks and lifecycle methods",
+            "Build a complete React application with routing"
+        ]
+    },
+    "python": {
+        "steps": [
+            "Learn Python syntax and basic programming concepts",
+            "Understand object-oriented programming in Python",
+            "Practice with popular libraries like requests and pandas",
+            "Build a web application using Django or Flask"
+        ]
+    },
+    "kubernetes": {
+        "steps": [
+            "Understand container orchestration concepts",
+            "Install kubectl and learn basic commands",
+            "Create and deploy pods, services, and deployments",
+            "Learn about ConfigMaps, Secrets, and scaling"
+        ]
+    },
+    "postgresql": {
+        "steps": [
+            "Learn SQL fundamentals and database concepts",
+            "Install PostgreSQL and practice basic queries",
+            "Understand indexes, joins, and performance optimization",
+            "Learn advanced features like stored procedures and triggers"
+        ]
+    },
+    "git": {
+        "steps": [
+            "Learn Git basics: init, add, commit, push, pull",
+            "Understand branching and merging strategies",
+            "Practice with GitHub or GitLab workflows",
+            "Learn advanced Git features like rebasing and cherry-picking"
+        ]
+    }
+}
