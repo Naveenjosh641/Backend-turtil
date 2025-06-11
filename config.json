@@ -1,0 +1,33 @@
+{
+    "fit_score_thresholds": {
+        "strong_fit": 0.7,
+        "moderate_fit": 0.4,
+        "weak_fit": 0.0
+    },
+    "skill_aliases": {
+        "amazon web services": "AWS",
+        "ec2": "AWS",
+        "s3": "AWS",
+        "nodejs": "Node.js",
+        "reactjs": "React",
+        "vuejs": "Vue.js",
+        "angularjs": "Angular",
+        "javascript": "JavaScript",
+        "typescript": "TypeScript",
+        "python3": "Python",
+        "postgresql": "PostgreSQL",
+        "mysql": "MySQL",
+        "mongodb": "MongoDB",
+        "docker": "Docker",
+        "kubernetes": "Kubernetes",
+        "k8s": "Kubernetes",
+        "git": "Git",
+        "github": "Git",
+        "gitlab": "Git"
+    },
+    "max_steps_per_skill": 4,
+    "similarity_weights": {
+        "skill_match": 0.7,
+        "text_similarity": 0.3
+    }
+}
